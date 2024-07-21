@@ -1,0 +1,326 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(60, 43%, 99%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(56, 74%, 57%);
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('images/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: hsl(56, 74%, 57%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    color: #0d0909;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    color: #0d0909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color:hsl(56, 74%, 57%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #0d0909;
+}
+main {
+    padding: 20px;
+}
+
+/* Styles specific to menu.html */
+
+.menu-section {
+    margin-top: -50px;
+}
+
+.menu-section h2 {
+    color: #0c0202; /* Light color for better contrast */
+    border-bottom: 2px solid #ffecec;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-section ul li {
+    background-color: #f8f7f8;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-section ul li:hover {
+    background-color: #ffffff;
+}
+
+.menu-item-name {
+    font-weight: bold;
+    color: #050202; /* Light color for better contrast */
+}
+
+.menu-item-price {
+    color: #090101;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: Center;
+    color: #0a0303;
+    margin-bottom: 40px;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: Left;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+/* Reservations Section Styles */
+.reservations {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.reservations h2 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.reservations p {
+    font-size: 18px;
+    color: #100606;
+    margin-bottom: 40px;
+}
+
+.reservations form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservations label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #160202;
+    text-align: left;
+}
+
+.reservations input,
+.reservations textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.reservations input[type="date"],
+.reservations input[type="time"],
+.reservations input[type="number"] {
+    padding-right: 30px;
+}
+
+.reservations button {
+    background-color: #ffcc00;
+    color: #100e0e;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reservations button:hover {
+    background-color: #ff9900;
+}
+
+@media (max-width: 768px) {
+    .reservations form {
+        padding: 20px;
+    }
+
+    .reservations input,
+    .reservations textarea {
+        font-size: 14px;
+    }
+
+    .reservations button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+/* About Us Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.about h2 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #0a0101;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-image {
+        text-align: center;
+    }
+}
+
